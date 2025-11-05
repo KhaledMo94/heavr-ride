@@ -1,0 +1,76 @@
+[30-Sep-2025 11:22:59 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[30-Sep-2025 11:23:01 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[30-Sep-2025 11:23:04 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[30-Sep-2025 11:23:07 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[30-Sep-2025 11:23:10 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[30-Sep-2025 11:23:12 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:387) in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/d6110/public_html/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/d6110/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/d6110/public_html/vendor/symfony/http-foundation/Response.php on line 322
+[06-Oct-2025 10:23:23 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/d6110/public_html/app/Http/Controllers/Api/OrderController.php on line 20
+[06-Oct-2025 10:23:25 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/d6110/public_html/app/Http/Controllers/Api/OrderController.php on line 20
+[06-Oct-2025 10:23:28 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/d6110/public_html/app/Http/Controllers/Api/OrderController.php on line 20
+[06-Oct-2025 10:24:02 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/d6110/public_html/app/Http/Controllers/Api/OrderController.php on line 20
