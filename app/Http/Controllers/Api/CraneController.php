@@ -102,7 +102,7 @@ class CraneController extends Controller
 
     public function show(Crane $crane)
     {
-        $crane->load('user');
+        $crane->load('user')->loadCount('rides');
         return new CraneResource($crane);
     }
 

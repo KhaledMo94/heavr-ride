@@ -21,14 +21,18 @@ class UserResource extends JsonResource
             'email'                     => $this->email,
             'phone'                     => $this->phone_number,
             'image'                     => $this->image ? asset('storage/' . $this->image) : null,
-            'fcm_token'                 => $this->fcm_token,
-            'player_id'                 => $this->player_id,
+            // 'fcm_token'                 => $this->fcm_token,
+            // 'player_id'                 => $this->player_id,
             'is_phone_verified'         => $this->is_phone_verified,
             'created_at'                => $this->created_at,
             'status'                    => $this->status,
             'wallet'                    => new WalletResource($this->whenLoaded('wallet')),
             'crane'                     => new CraneResource($this->whenLoaded('crane')),
             'rides'                     => RideResource::collection($this->whenLoaded('rides')),
+            'permissions'               => $this->whenLoaded('permissions', function () {
+                return $this->permissions->pluck('name');
+            }),
+
         ];
     }
 }

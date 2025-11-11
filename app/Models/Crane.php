@@ -63,4 +63,9 @@ class Crane extends Model
         return $this->image ? asset($this->image) : null;
     }
 
+    public function rides()
+    {
+        return $this->hasMany(Ride::class);
+    }
+
 }

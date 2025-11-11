@@ -15,18 +15,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(RolesSeeder::class);
+        // $this->call(RolesSeeder::class);
 
-        $user = User::create([
-            'name'                      =>'Super Admin',
-            'email'                     =>'admin@heavy-ride.com',
-            'password'                  =>Hash::make('9449'),
-            'phone_number'              =>'1111111111',
-            'phone_verified_at'         =>now(),
-            'email_verified_at'         =>now(),
-        ]);
+        // $user = User::create([
+        //     'name'                      =>'Super Admin',
+        //     'email'                     =>'admin@heavy-ride.com',
+        //     'password'                  =>Hash::make('9449'),
+        //     'phone_number'              =>'1111111111',
+        //     'phone_verified_at'         =>now(),
+        //     'email_verified_at'         =>now(),
+        // ]);
 
-        $user->assignRole('super-admin');
+        // $user->assignRole('super-admin');
+
+        $this->call(PermissionsSeeder::class);
 
     }
 }

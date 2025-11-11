@@ -6,7 +6,7 @@ use Kreait\Firebase\Factory;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification;
 
-class FirebasePushNotifications 
+class FirebasePushNotifications
 {
     protected $messaging;
 
@@ -24,9 +24,9 @@ class FirebasePushNotifications
         $notification = Notification::create($title , $body);
 
         $message = CloudMessage::new()
-        ->withNotification($notification)
-        ->withData($data)
-        ->toToken($fcm_token);
+            ->withNotification($notification)
+            ->withData($data)
+            ->toToken($fcm_token);
 
         return $this->messaging->send($message);
     }

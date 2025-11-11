@@ -24,7 +24,7 @@ class TransactionResource extends JsonResource
         ];
     }
 
-    private function translateStatus(string $status): string
+    private function translateStatus(?string $status): string
     {
         return match ($status) {
             'pending'       => __('Pending'),

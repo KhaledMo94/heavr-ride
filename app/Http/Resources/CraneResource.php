@@ -25,6 +25,7 @@ class CraneResource extends JsonResource
             'is_online'             =>$this->is_online,
             'ratings_count'         =>$this->ratings_count,
             'avg_rating'            =>$this->avg_rating,
+            'rides_count'           =>$this->whenCounted('rides'),
         ];
     }
 }

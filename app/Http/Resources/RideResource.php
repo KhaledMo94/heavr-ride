@@ -42,7 +42,7 @@ class RideResource extends JsonResource
     /**
      * Translate ride status into readable form.
      */
-    private function translateStatus(string $status): string
+    private function translateStatus(?string $status): string
     {
         return match ($status) {
             'pending'       => __('Pending'),

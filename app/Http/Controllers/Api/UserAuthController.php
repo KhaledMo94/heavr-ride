@@ -25,7 +25,7 @@ class UserAuthController extends Controller
             'email'                     => 'nullable|email|unique:users,email',
             'type'                      => 'nullable|in:user,driver',
             'phone_number'              => 'required|string|size:11',
-            'password'                  => ['required', Password::min(8)
+            'password'                  => ['required', Password::min(4)
             // ->letters()->numbers()->mixedCase()->symbols()->uncompromised()
         ],
             're_password'               => 'required|same:password',
@@ -83,7 +83,7 @@ class UserAuthController extends Controller
     {
         $request->validate([
             'email'                         =>'required|email|exists:users,email',
-            'password'                      => 'required|min:8',
+            'password'                      => 'required|min:4',
         ]);
 
         $user = User::where('email', $request->email)
@@ -217,7 +217,7 @@ class UserAuthController extends Controller
     public function deleteAccount()
     {
         $user = Auth::guard('sanctum')->user();
-        
+
         $user->delete();
 
         return response()->json(status:204);
